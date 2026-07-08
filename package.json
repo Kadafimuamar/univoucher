@@ -1,0 +1,27 @@
+{
+  "name": "univoucher-sphere-starter",
+  "version": "0.1.0",
+  "private": true,
+  "description": "UniVoucher starter using Unicity Sphere Connect on testnet2.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "preflight": "node scripts/preflight.mjs"
+  },
+  "dependencies": {
+    "@unicitylabs/sphere-sdk": "0.10.2",
+    "next": "15.4.10",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.13.14",
+    "@types/react": "19.0.12",
+    "@types/react-dom": "19.0.4",
+    "typescript": "5.8.3"
+  },
+  "allowScripts": {
+    "sharp@0.34.5": true
+  }
+}
